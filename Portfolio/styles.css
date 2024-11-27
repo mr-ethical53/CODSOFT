@@ -1,0 +1,205 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Light background */
+    color: #333; /* Dark text for readability */
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+/* Header */
+header {
+    background-color: #1E2A38; /* Dark Blue */
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header .tagline {
+    font-size: 1.5em;
+    font-style: italic;
+    color: #F5A623; /* Warm Yellow */
+}
+
+/* About Section */
+#about {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #1E2A38;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.profile-image {
+    border-radius: 0%;
+    width: 200px;
+    height: 200px;
+    margin-right: 0px;
+    border: 5px solid #F5A623; /* Warm Yellow */
+}
+
+#about p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #555;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #F5F5F5; /* Soft light gray */
+    padding: 60px 0;
+}
+
+#skills h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #1E2A38;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.skill {
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.skill h3 {
+    font-size: 1.8em;
+    color: #1E2A38;
+    margin-bottom: 10px;
+}
+
+.skill p {
+    color: #777;
+    font-size: 1.1em;
+}
+
+.skill:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Projects Section */
+#projects {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+#projects h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #1E2A38;
+}
+
+.project {
+    background-color: #F5F5F5; /* Light Gray */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.project h3 {
+    font-size: 2em;
+    color: #F5A623; /* Warm Yellow */
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1.1em;
+    color: #777;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Resume Section */
+#resume {
+    background-color: #1E2A38; /* Dark Blue */
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#resume .button {
+    text-decoration: none;
+    background-color: #F5A623; /* Warm Yellow */
+    color: #1E2A38; /* Dark Blue */
+    padding: 12px 30px;
+    font-size: 1.2em;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+#resume a {
+    font-weight: bold;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+#contact p {
+    font-size: 1.1rem;
+}
+
+/* Footer Section */
+footer {
+    background-color: #1E2A38;
+    color: white;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
